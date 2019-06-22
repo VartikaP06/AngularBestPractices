@@ -6,7 +6,9 @@ import { AccountMenuComponent } from './account-menu.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [ CommonModule, RouterModule ],
+  imports: [
+    CommonModule,
+    RouterModule ],
   exports: [
     NavBarComponent,
     AccountMenuComponent
